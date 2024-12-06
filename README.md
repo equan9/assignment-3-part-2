@@ -9,8 +9,8 @@ This tutorial will walk through the steps for setting up a web server with a fil
 
 ## Project Prerequisites
 - A new Github repository with a READ.me file.
-- The starter code that contains a script to generate an index.html file in the file server. This HTML file will contain the default web content that is displayed when you access your server's IP     address. It will link to the directory that contains the test files. The starter code needs to be cloned into your repository. 
-
+- The starter code that contains a script to generate an index.html file in the file server. This HTML file will contain the default web content that is displayed when you access your server's IP address. It will link to the directory that contains the test files. The starter code needs to be cloned into your servers
+  
 ## Setup Instructions
 
 ### 1. Set Up Two DigitalOcean Droplets (servers)
