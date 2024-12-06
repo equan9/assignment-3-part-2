@@ -10,12 +10,10 @@ This tutorial will walk through the steps for setting up a web server with a fil
 ## Project Prerequisites
 - A new Github repository with a READ.me file.
 - The starter code that contains a script to generate an index.html file in the file server. This HTML file will contain the default web content that is displayed when you access your server's IP     address. It will link to the directory that contains the test files. The starter code needs to be cloned into your repository. 
-- 
 
 ## Setup Instructions
 
 ### 1. Set Up Two DigitalOcean Droplets (servers)
-
 1. Create two DigitalOcean droplets running Arch Linux.
 2. Assign the "web" tag to both droplets.
 3. Install Nginx and Git on both droplets.
@@ -27,7 +25,6 @@ This tutorial will walk through the steps for setting up a web server with a fil
 9. Check that Nginx has been configured through each server's IP address.
 
 ### 2. Set up the File Server
-
 1. Create the directories "/var/lib/webgen/bin", "/var/lib/webgen/documents" and "/var/lib/webgen/HTML" in each server. "/var/lib/webgen/HTML" is where the updated script will generate an HTML document.  
 2. Since we are using a system user, we need to change the permissions for the user so they can write in the directories.
 3. Copy the generate_index script to the appropriate directory "/var/lib/webgen/bin"
