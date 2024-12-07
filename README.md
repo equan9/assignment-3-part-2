@@ -42,7 +42,7 @@ This tutorial will walk through the steps for setting up a web server with a fil
 ### 2. Set up the File Server
 1. Create the directories "/var/lib/webgen/bin", "/var/lib/webgen/documents" and "/var/lib/webgen/HTML" in each server. "/var/lib/webgen/HTML" is where the updated script will generate an HTML document.
   ```bash
-   sudo mkdir -p /var/lib/webgen/bin /var/lib/webgen/documents/ /var/lib/webgen/HTML
+  sudo mkdir -p /var/lib/webgen/bin /var/lib/webgen/documents/ /var/lib/webgen/HTML
 2. Clone the starter code repository
   ```bash
   git clone https://git.sr.ht/~nathan_climbs/2420-as3-p2-start
