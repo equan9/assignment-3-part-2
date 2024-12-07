@@ -1,6 +1,5 @@
 # Webgen Server Tutorial 
 This tutorial will walk through the steps for setting up a web server with a file server and a load balancer. 
-We will be accessing the servers as a system user 
 
 ## Project Parts 
 - Two DigitalOcean droplets running Arch Linux
