@@ -47,22 +47,22 @@ This tutorial will walk through the steps for setting up a web server with a fil
    ```bash
    git clone https://git.sr.ht/~nathan_climbs/2420-as3-p2-start
 3. Change to the starter code directory
-  ```bash
-  cd 2420-as3-p2-start
+   ```bash
+   cd 2420-as3-p2-start
 4. Copy the generate_index script to the appropriate directory "/var/lib/webgen/bin"
-  ```bash
+   ```bash
    sudo cp generate_index /var/lib/webgen/bin
 5. Set execute permissions for the script so that it can run.
-  ```bash
+   ```bash
    sudo chmod +x /var/lib/webgen/bin/generate_index
 6. Change to the bin directory to run the generate_index script. 
-  ```bash
+   ```bash
    sudo /var/lib/webgen/bin/generate_index
 6. Check if it exists in the correct directory. 
 7. Next, create test files in the /documents directory, such as "file-one" and "file-two". Check if the files exist in the correct directory. We can download these files later to see if the file server is working correctly.
-  ```bash
-  echo "file one random content" | sudo tee /var/lib/webgen/documents/file-one
-  echo "file two random content" | sudo tee /var/lib/webgen/documents/file-two
+   ```bash
+   echo "file one random content" | sudo tee /var/lib/webgen/documents/file-one
+   echo "file two random content" | sudo tee /var/lib/webgen/documents/file-two
 8. Verify the tree structure to ensure all the files are in the right place. 
 
 ## 3. Set up the Load Balancer
