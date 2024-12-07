@@ -40,6 +40,10 @@ This tutorial will walk through the steps for setting up a web server with a fil
 8. Check that Nginx has been configured through each server's IP address.
 
 ### 2. Set up the File Server
+7. Start the Nginx service/enable it.
+   ```bash
+   sudo systemctl start nginx
+   sudo systemctl enable nginx
 1. Create the directories "/var/lib/webgen/bin", "/var/lib/webgen/documents" and "/var/lib/webgen/HTML" in each server. "/var/lib/webgen/HTML" is where the updated script will generate an HTML document.
   ```bash
   sudo mkdir -p /var/lib/webgen/bin /var/lib/webgen/documents/ /var/lib/webgen/HTML
