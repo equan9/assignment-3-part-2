@@ -70,8 +70,8 @@ This tutorial will walk through the steps for setting up a web server with a fil
     ```bash
     getent passwd webgen
 11. Change ownership of the directories and files of the server to the webgen system user. 
-   ```bash
-   sudo chown -R webgen:webgen /var/lib/webgen
+    ```bash
+    sudo chown -R webgen:webgen /var/lib/webgen
 
 ## 3. Set up the Load Balancer
 A load balancer helps distribute traffic between the servers to make sure the server content is reliably available. If one server is down, the traffic will be redirected to another server so that visitors can still access the same content. 
