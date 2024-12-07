@@ -19,12 +19,12 @@ This tutorial will walk through the steps for setting up a web server with a fil
 3. Install Nginx Git Nano (text editor) and Tree on both droplets. 
    ```bash
    sudo pacman -S nginx git nano tree
-   (You may need to update your system first)
+   # (You may need to update your system first)
    ```bash
    sudo pacman -Syu 
 4. Open the Nginx configuration file.
    ```bash
-     sudo nano /etc/nginx/nginx.conf
+   sudo nano /etc/nginx/nginx.conf
 5. Add the location /documents/ block to configure Nginx.
    ```bash
    location /documents {
