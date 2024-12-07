@@ -63,8 +63,13 @@ This tutorial will walk through the steps for setting up a web server with a fil
    echo "file one random content" | sudo tee /var/lib/webgen/documents/file-one
    echo "file two random content" | sudo tee /var/lib/webgen/documents/file-two
 8. Verify the tree structure to ensure all the files are in the right place.
-9. Change ownership of the directories and files of the server to a system user (webgen can be the username). It's best to create a system user for 
-web servers so we can limit the permissions and keep all the files secure. 
+9. Create a system user (webgen). It's best to create a system user for web servers so we can limit the permissions and keep all the files secure. 
+   ```bash
+   sudo useradd -r -s /bin/false webgen
+10. Verify that the user has been created successfully.
+    ```bash
+    getent passwd webgen
+11. Change ownership of the directories and files of the server to the webgen system user. 
    ```bash
    sudo chown -R webgen:webgen /var/lib/webgen
 
