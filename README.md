@@ -20,7 +20,6 @@ This tutorial will walk through the steps for setting up a web server with a fil
    ```bash
    sudo pacman -S nginx git nano tree
    # (You may need to update your system first)
-   ```bash
    sudo pacman -Syu 
 4. Open the Nginx configuration file.
    ```bash
